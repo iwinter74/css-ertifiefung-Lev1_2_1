@@ -1,0 +1,41 @@
+body {
+    margin:0;
+    padding:0
+}
+label, input, textarea {
+    display: block;
+}
+fieldset {
+    width: 25%;
+    margin-left: 40%;
+    margin-top: 10%;
+    border: none;
+    background-color: lightgrey;
+}
+label {
+    text-align: center;
+    background: lightseagreen;
+    color: white;
+    padding-top: 1em;
+    padding-bottom: 1em
+}
+#button {
+    text-align: center;
+    color: white;
+    background: lightseagreen;
+    border: none;
+    width: 90%;
+    padding-top: 1em;
+    padding-bottom: 1em
+}
+input {
+    width: 90%;
+    margin: 2em auto
+}
+textarea {
+ margin: 0 auto;
+ width: 90%
+}
+#button:hover{
+    background-color: seagreen;
+}
